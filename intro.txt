@@ -1,0 +1,1 @@
+Git is a version control system — a tool that helps developers track and manage changes to their code (or any set of files) over time.
