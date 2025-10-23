@@ -1,0 +1,15 @@
+git init: Initializes a new Git repository in the current directory.
+git clone <repository_url>: Downloads an existing remote repository to your local machine.
+git config --global user.name "Your Name": Sets your global username for Git commits.
+git config --global user.email "your_email@example.com": Sets your global email for Git commits.
+git add <file_name>: Stages changes in a specific file for the next commit.
+git add .: Stages all changes in the current directory for the next commit.
+git commit -m "Commit message": Saves the staged changes to the local repository with a descriptive message.
+git status: Shows the current state of your working directory, including untracked, modified, and staged files.
+git branch: Lists all local branches.
+git branch <branch_name>: Creates a new branch.
+git checkout <branch_name>: Switches to a different branch.
+git checkout -b <new_branch_name>: Creates a new branch and switches to it. 
+git merge <branch_name>: Merges changes from the specified branch into the current branch.
+git branch -d <branch_name>: Deletes a local branch (only if it's already merged).
+git branch -D <branch_name>: Deletes a local branch forcefully (even if unmerged).
